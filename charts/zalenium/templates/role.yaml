@@ -8,7 +8,6 @@ metadata:
 rules:
 - apiGroups:
   - ""
-  attributeRestrictions: null
   resources:
   - pods
   verbs:
@@ -20,7 +19,6 @@ rules:
   - watch
 - apiGroups:
   - ""
-  attributeRestrictions: null
   resources:
   - pods/exec
   verbs:
